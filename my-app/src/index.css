@@ -1,0 +1,518 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.darkNav {
+    background-color: #07070d;
+    transition: 0.5s;
+    z-index: 10000;
+}
+
+.navBar a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navBar a:hover {
+    color: rgb(201, 198, 198);
+    
+
+}
+.links {
+    margin-left: 8rem;
+}
+
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(8,0,58,0.7)), url('../src/assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: center;
+    max-width: 800px;
+
+}
+
+.hero-text h1 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.hero-text {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+.programs {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.program img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+
+}
+.program {
+    flex-basis: 31%;
+    position: relative;
+}
+
+.caption {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+.caption img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+.program:hover .caption {
+    opacity: 1;
+    padding-top: 0;
+}
+
+.title {
+    text-align: center;
+    color: #212EA0;
+    font-size: 15px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    margin: 70px 0 30px;
+
+}
+
+.title h2 {
+    font-size: 32px;
+    color: #000F38;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+.about {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.aboutLeft {
+flex-basis: 40%;
+position: relative;
+
+}
+.aboutRight {
+    flex-basis: 56%;
+}
+
+.aboutImg {
+    width: 100%;
+    border-radius: 10px;
+}
+.playIcon {
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about h3 {
+    font-weight: 600;
+    color: #212EA0;
+    font-size: 16px;
+}
+.about h3 {
+    color: #212EA0;
+    font-size: 35px;
+    margin: 10px 0;
+    max-width: 400px;
+
+}
+.about p {
+    color: #676767;
+    margin-bottom: 15px;;
+}
+
+.campus {
+    text-align: center;
+    width: 90%;
+    margin: 80px auto;
+
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.gallery img {
+    width: 23%;
+    border-radius: 10px;
+}
+
+.testimonials {
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+
+}
+
+.nextBtn, .backBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #000F38;
+}
+
+.backBtn {
+    right: auto;
+    left: 0;
+}
+
+.slider {
+    overflow: hidden;
+
+}
+.slider ul {
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    transform: translateX(-50%);
+}
+
+.slider ul li {
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}
+
+.slide {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.28);
+    padding: 40px;
+    border-radius: 10px;
+    color: #3d3c3c;
+    line-height: 1.4;
+}
+.slide img {
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 4px solid #212EA0;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.userInfo h3 {
+    color: #212EA0;
+}
+
+.contact {
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactCol {
+    flex-basis: 48%;
+    color: #2e2e2e;
+}
+
+.contactCol h3 {
+    color: #010e0f;
+    font-weight: 500;
+    font-size: 25px;
+}
+.contactCol h3 img {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.contactCol p {
+    max-width: 450px;
+    list-style: none;
+
+}
+.contactCol ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contactCol ul li img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.contact form input, .contact form textarea {
+    display: block;
+    width: 100%;
+    background-color: #e2ebf6;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.contactCol span {
+    display: block;
+    margin: 20px 0;
+}
+
+.footer {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.menuIcon {
+    display: none;
+}
+
+/* Media query */
+
+
+@media (max-width: 1010px) {
+    .logo {
+        width: 140px;
+    }
+    .navBar a {
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width: 905px) {
+    .navBar {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 886px) {
+    .navBar a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 840px) {
+   .navBar .links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #07070d;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+    bottom: 0;
+   }
+   
+   .links a {
+    display: block;
+    margin: 25px;
+    text-align: center;
+   }
+   
+
+   .menuIcon {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-right: 60px;
+    top: 0;
+    margin-top: 2rem;
+   }
+   .hideMobileMenu {
+    display: none;
+   }
+   
+}
+
+@media (max-width: 850px) {
+    .hero-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column;
+
+    }
+    .aboutLeft {
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .aboutRight {
+        flex-basis: 100%;
+    }
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .gallery img {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    .testimonials {
+        padding: 0 40px;
+    }
+    .nextBtn, .backBtn {
+        padding: 10px;
+        width: 35px;
+    }
+    .testimonials ul li {
+        padding: 10px;
+    }
+    .slide {
+        padding: 10px;
+    }
+    .slide img {
+        width: 50px;
+        border: 3px solid #212EA0;
+    }
+}
+@media (max-width: 650px) {
+    .hero-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+    .programs {
+        flex-direction: column;
+    }
+    .program {
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .userInfo {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+    .userInfo h3 {
+        font-size: 18px;
+
+    }
+    .slider p {
+        font-size: 14px;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .footer ul li {
+        margin: 10px;
+    }
+    .footer ul {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .contact {
+        display: block;
+    }
+    .contactCol {
+        padding: 20px;
+    }
+}
+
+.videoPlayer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.videoPlayer video {
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    border: 1px solid white;
+}
+.videoPlayer.hide {
+    display: none;
+}
+

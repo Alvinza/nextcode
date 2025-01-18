@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60">
+  <!-- Logo text and symbols -->
+  <g fill="white" font-family="Arial, sans-serif">
+    <!-- Opening bracket -->
+    <text x="20" y="40" font-size="32">&lt;</text>
+    <!-- Forward slash -->
+    <text x="45" y="40" font-size="32">/</text>
+    <!-- Next Code text -->
+    <text x="70" y="40" font-size="28" font-weight="bold">Next Code</text>
+    <!-- Closing bracket -->
+    <text x="250" y="40" font-size="32">&gt;</text>
+  </g>
+</svg>
