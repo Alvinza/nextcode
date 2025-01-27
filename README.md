@@ -1,17 +1,21 @@
-# Luxury Real Estate Website
+# Code Space - Coding Campus/Bootcamp Website
 
-This is a static real estate website showcasing luxury homes in South Africa. The platform provides information about the homes available, testimonials from clients, and ways to contact the team for inquiries. Built using React, Bootstrap, and Tailwind CSS, the website is modern, responsive, and user-friendly.
+## Overview
+Code Space is a user-friendly and responsive website for a coding campus/bootcamp. It provides a seamless experience across all devices and showcases all the essential information about the campus and its programs. The website is built with **React** and styled with **Tailwind CSS**, ensuring a modern, clean, and performant static site.
 
 ## Features
+- **Fully Responsive Design**: Optimized for all devices including desktops, tablets, and mobile phones.
+- **User-Friendly Interface**: Intuitive navigation and easy access to information.
+- **Static Website**: Fast and reliable with no backend dependencies.
 
-- **Home Page**: An engaging landing page with an overview of the luxury homes available and the brand's mission.
-- **About Page**: Detailed information about the company and its dedication to providing high-end real estate solutions.
-- **Projects Page**: A gallery showcasing luxury houses and projects completed.
-- **Testimonials Page**: Feedback and reviews from satisfied clients.
-- **Contact Page**: A form for users to get in touch with the team for inquiries or additional information.
+## Pages
+1. **Home**: Introduction to Code Space and a snapshot of key features and offerings.
+2. **Program**: Detailed information about the courses and training programs available.
+3. **About**: Learn about Code Space’s mission, vision, and values.
+4. **Campus**: Information about the campus facilities and environment.
+5. **Testimonials**: Feedback and experiences shared by past students.
+6. **Contact**: Contact details and a form for inquiries.
 
 ## Tech Stack
-
-- **React**: Used to build the interactive user interface.
-- **Bootstrap**: For layout and responsive design.
-- **Tailwind CSS**: For custom styling and enhancing visual appeal.
+- **Frontend**: React
+- **Styling**: Tailwind CSS
