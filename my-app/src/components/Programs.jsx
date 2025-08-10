@@ -1,5 +1,4 @@
 import React from 'react'
-
 // Import program images
 import programOne from '../assets/program-1.jpg'
 import programTwo from '../assets/program-2.jpg'
@@ -15,8 +14,6 @@ import programIconThree from '../assets/program-icon-3.png'
  * 
  * Displays a grid of educational programs with their corresponding images and icons.
  * Each program card contains a main image and a caption with an icon and program name.
- * 
- * @returns {JSX.Element} A div containing three program cards
  */
 const Programs = () => {
   return (
@@ -24,27 +21,27 @@ const Programs = () => {
     <div className='programs' id='programs'>
         {/* Program Card 1 - Graduation Degree */}
         <div className="program">
-            <img src={programOne} alt="" />
+            <img src={programOne} alt="pic1" />
             <div className="caption">
-                <img src={programIconOne} alt="" />
+                <img src={programIconOne} alt="icon" />
                 <p>Graduation Degree</p>
             </div>
         </div>
 
         {/* Program Card 2 - Master Degree */}
         <div className="program">
-            <img src={programTwo} alt="" />
+            <img src={programTwo} alt="pic2" />
             <div className="caption">
-                <img src={programIconTwo} alt="" />
+                <img src={programIconTwo} alt="icon" />
                 <p>Master Degree</p>
             </div>
         </div>
 
         {/* Program Card 3 - Post Degree */}
         <div className="program">
-            <img src={programThree} alt="" />
+            <img src={programThree} alt="pic3" />
             <div className="caption">
-                <img src={programIconThree} alt="" />
+                <img src={programIconThree} alt="icon" />
                 <p>Post Degree</p>
             </div>
         </div>
