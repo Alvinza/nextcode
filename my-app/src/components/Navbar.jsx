@@ -23,9 +23,8 @@ const Navbar = () => {
     }
   
     return (
-        // Main navbar container with conditional sticky styling
+        // navbar container with conditional sticky styling
         <div className={`navBar ${sticky ? 'darkNav' : ''}`}>
-            {/* Logo section */}
             <div className="logo">
                 <img src={logo} alt="logo" style={{width: '250px', marginLeft: '2rem'}} />
             </div>
