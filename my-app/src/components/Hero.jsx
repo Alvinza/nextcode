@@ -3,6 +3,7 @@ import darkArrow from '../assets/dark-arrow.png'
 
 const Hero = () => {
   return (
+    // Hero section container
     <div className='hero'>
       <div className="hero-text container">
         <h1>Code Without Limits</h1>
