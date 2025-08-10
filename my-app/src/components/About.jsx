@@ -2,10 +2,9 @@ import React from 'react'
 import aboutImg from '../assets/about.avif'
 import playIcon from '../assets/play-icon.png'
 
-// About component that displays information about the bootcamp and includes a video player trigger
+// Component that displays information about the bootcamp and includes a video player trigger
 const About = ({setPlayState}) => {
   return (
-    // Main container for about section
     <div className='about'>
       {/* Left section containing the main image and play button overlay */}
       <div className="aboutLeft">
@@ -21,7 +20,7 @@ const About = ({setPlayState}) => {
          style={{cursor: 'pointer'}} 
         />
       </div>
-      {/* Right section containing bootcamp information */}
+      {/* Right section */}
       <div className="aboutRight">
         <h3>About Bootcamp</h3>
         <h2>Next Code</h2>
