@@ -13,10 +13,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import VideoPlayer from './components/VideoPlayer';
 
-
-
 function App() {
 
+    // State to control video player visibility
     const [playState, setPlayState] = useState(false);
 
     return (
