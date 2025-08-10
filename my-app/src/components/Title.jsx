@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Reusable Title component. props:
 const Title = ({subTitle, title}) => {
   return (
     <div className='title'>
