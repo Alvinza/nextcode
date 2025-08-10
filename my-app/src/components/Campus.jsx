@@ -7,14 +7,18 @@ import WhiteArrow from '../assets/white-arrow.png'
 
 const Campus = () => {
   return (
+     // Main container for the campus section
     <div className='campus'>
         <div className="gallery">
-            <img src={galleryOne} alt="" />
-            <img src={galleryTwo} alt="" />
-            <img src={galleryThree} alt="" />
-            <img src={galleryFour} alt="" />
+            <img src={galleryOne} alt={galleryOne} />
+            <img src={galleryTwo} alt={galleryTwo} />
+            <img src={galleryThree} alt={Three} />
+            <img src={galleryFour} alt={galleryFour} />
         </div>
-        <button className='btn btn-primary'>See more here <img src={WhiteArrow} alt="" style={{width: '25px'}} /></button>
+        <button className='btn btn-primary'>
+          See more here
+          <img src={WhiteArrow} alt="" style={{width: '25px'}} />
+        </button>
     </div>
   )
 }
