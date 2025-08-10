@@ -5,16 +5,12 @@ const VideoPlayer = ({playState, setPlayState}) => {
     // Reference to the player container for click detection
     const player = useRef(null);
 
-    /**
-     * Closes the video player when clicking outside the video element
-     * @param {Event} e - Click event
-     */
+    // Close player if click is outside video
     const closePlayer = (e) => {
         if (e.target === player.current) {
             setPlayState(false);
         }
     }
-
     return (
         // Container div with conditional hide class based on playState
         <div className={`videoPlayer ${playState ? '' : 'hide'}`} 
