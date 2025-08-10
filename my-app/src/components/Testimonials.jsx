@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-
 // Import navigation icons
 import nextIcon from "../assets/next-icon.png";
 import backIcon from "../assets/back-icon.png";
