@@ -41,7 +41,7 @@ Make sure you have Node.js installed on your machine:
 
 1. Clone the repository:
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/Alvinza/nextcode.git
    cd nextcode-website
    ```
 
