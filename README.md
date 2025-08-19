@@ -34,7 +34,7 @@ A user-friendly and responsive website for a coding campus/bootcamp. It provides
 ### Prerequisites
 
 Make sure you have Node.js installed on your machine:
-- Node.js (version 14 or higher)
+- Node.js 
 - npm or yarn package manager
 
 ### Installation
@@ -42,7 +42,7 @@ Make sure you have Node.js installed on your machine:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Alvinza/nextcode.git
-   cd nextcode-website
+   cd my-app
    ```
 
 2. Install dependencies:
