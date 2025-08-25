@@ -1,3 +1,7 @@
+/**
+ * Combines all sections of the site: navbar, hero, programs, about, campus, testimonials, contact, footer.
+ * Handles global state for controlling the video player.
+ */
 import './App.css';
 import './index.css'
 import "bootstrap/dist/css/bootstrap.min.css";
