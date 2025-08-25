@@ -3,7 +3,7 @@ import darkArrow from '../assets/dark-arrow.png'
 
 const Hero = () => {
   return (
-    // Hero section container
+    // Displays a hero banner with main tagline and call-to-action button.
     <div className='hero'>
       <div className="hero-text container">
         <h1>Code Without Limits</h1>
