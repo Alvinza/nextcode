@@ -1,3 +1,4 @@
+// Handles sticky nav on scroll and mobile menu toggle.
 import React, { useEffect, useState } from 'react'
 import logo from '../assets/logo.svg'
 import { Link } from 'react-scroll'
