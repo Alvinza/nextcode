@@ -1,3 +1,4 @@
+// Custom slider for displaying student testimonials with next/back navigation.
 import React, { useRef } from "react";
 // Import navigation icons
 import nextIcon from "../assets/next-icon.png";
