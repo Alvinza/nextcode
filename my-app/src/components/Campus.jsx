@@ -12,7 +12,7 @@ const Campus = () => {
         <div className="gallery">
             <img src={galleryOne} alt={galleryOne} />
             <img src={galleryTwo} alt={galleryTwo} />
-            <img src={galleryThree} alt={Three} />
+            <img src={galleryThree} alt={galleryThree} />
             <img src={galleryFour} alt={galleryFour} />
         </div>
         <button className='btn btn-primary'>
