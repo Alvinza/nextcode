@@ -5,6 +5,11 @@ A user-friendly and responsive website for a coding campus/bootcamp. It provides
 ## 🌐 Live Demo
 
 **[View Live App](https://your-nextcode-app.vercel.app)**
+## 📸 Screenshot
+
+![App Screenshot](./my-app/src/assets/screenshot.png)
+
+---
 
 ## ✨ Features
 
