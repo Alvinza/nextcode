@@ -10,7 +10,6 @@ A user-friendly and responsive website for a coding campus/bootcamp. It provides
 ![App Screenshot](./my-app/src/assets/screenshot.png)
 
 ---
-
 ## ✨ Features
 
 - **Fully Responsive Design**: Optimized for all devices including desktops, tablets, and mobile phones
